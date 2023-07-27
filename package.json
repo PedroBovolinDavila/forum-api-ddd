@@ -1,0 +1,26 @@
+{
+  "name": "forum-ddd-nodejs",
+  "version": "1.0.0",
+  "description": "Design dirigido a domínio   - Design é como vamos tirar o problema do papel para o código",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "eslint src --ext .ts",
+    "lint:fix": "eslint src --ext .ts --fix"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^8.0.2",
+    "@rocketseat/eslint-config": "^2.0.1",
+    "@types/node": "^20.4.1",
+    "eslint": "^8.44.0",
+    "typescript": "^5.1.6",
+    "vite-tsconfig-paths": "^4.2.0",
+    "vitest": "^0.33.0"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.9"
+  }
+}
